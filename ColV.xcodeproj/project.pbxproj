@@ -21,6 +21,18 @@
 		D805696E18C77CBB00219FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805695018C77CBB00219FA2 /* UIKit.framework */; };
 		D805697618C77CBB00219FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D805697418C77CBB00219FA2 /* InfoPlist.strings */; };
 		D805697818C77CBB00219FA2 /* ColVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D805697718C77CBB00219FA2 /* ColVTests.m */; };
+		D805698318C77D7700219FA2 /* CVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D805698218C77D7700219FA2 /* CVCollectionViewCell.m */; };
+		D805698518C77F3800219FA2 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D805698418C77F3800219FA2 /* images.jpg */; };
+		D808980618D07F8F005DA0D0 /* CVActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D808980518D07F8F005DA0D0 /* CVActivityView.m */; };
+		D82656E318CF1CC50013FD17 /* flipped_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D82656E218CF1CC50013FD17 /* flipped_arrow.png */; };
+		D826573318CF45210013FD17 /* CVRefreshReloadCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D826573218CF45210013FD17 /* CVRefreshReloadCollectionView.m */; };
+		D82C9F1A18C9E52F00BA711B /* CVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D82C9F1918C9E52F00BA711B /* CVDataSource.m */; };
+		D82C9F2518CA0F8C00BA711B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82C9F2018CA0F8C00BA711B /* 1.jpg */; };
+		D82C9F2618CA0F8C00BA711B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82C9F2118CA0F8C00BA711B /* 2.jpg */; };
+		D82C9F2718CA0F8C00BA711B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82C9F2218CA0F8C00BA711B /* 3.jpg */; };
+		D82C9F2818CA0F8C00BA711B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82C9F2318CA0F8C00BA711B /* 4.jpg */; };
+		D82C9F2918CA0F8C00BA711B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82C9F2418CA0F8C00BA711B /* 5.jpg */; };
+		D89D9FA918CF0E0A00136EB9 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D89D9FA818CF0E0A00136EB9 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,22 @@
 		D805697318C77CBB00219FA2 /* ColVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColVTests-Info.plist"; sourceTree = "<group>"; };
 		D805697518C77CBB00219FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D805697718C77CBB00219FA2 /* ColVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColVTests.m; sourceTree = "<group>"; };
+		D805698118C77D7700219FA2 /* CVCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCollectionViewCell.h; sourceTree = "<group>"; };
+		D805698218C77D7700219FA2 /* CVCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCollectionViewCell.m; sourceTree = "<group>"; };
+		D805698418C77F3800219FA2 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		D808980418D07F8F005DA0D0 /* CVActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVActivityView.h; sourceTree = "<group>"; };
+		D808980518D07F8F005DA0D0 /* CVActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVActivityView.m; sourceTree = "<group>"; };
+		D82656E218CF1CC50013FD17 /* flipped_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flipped_arrow.png; path = iamges/flipped_arrow.png; sourceTree = "<group>"; };
+		D826573118CF45210013FD17 /* CVRefreshReloadCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRefreshReloadCollectionView.h; sourceTree = "<group>"; };
+		D826573218CF45210013FD17 /* CVRefreshReloadCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRefreshReloadCollectionView.m; sourceTree = "<group>"; };
+		D82C9F1818C9E52F00BA711B /* CVDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDataSource.h; sourceTree = "<group>"; };
+		D82C9F1918C9E52F00BA711B /* CVDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDataSource.m; sourceTree = "<group>"; };
+		D82C9F2018CA0F8C00BA711B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = iamges/1.jpg; sourceTree = "<group>"; };
+		D82C9F2118CA0F8C00BA711B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = iamges/2.jpg; sourceTree = "<group>"; };
+		D82C9F2218CA0F8C00BA711B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = iamges/3.jpg; sourceTree = "<group>"; };
+		D82C9F2318CA0F8C00BA711B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = iamges/4.jpg; sourceTree = "<group>"; };
+		D82C9F2418CA0F8C00BA711B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = iamges/5.jpg; sourceTree = "<group>"; };
+		D89D9FA818CF0E0A00136EB9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = iamges/arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +142,9 @@
 			children = (
 				D805695B18C77CBB00219FA2 /* CVAppDelegate.h */,
 				D805695C18C77CBB00219FA2 /* CVAppDelegate.m */,
-				D805695E18C77CBB00219FA2 /* Main.storyboard */,
-				D805696118C77CBB00219FA2 /* CVViewController.h */,
-				D805696218C77CBB00219FA2 /* CVViewController.m */,
+				D82C9F1C18C9E5B900BA711B /* Controller */,
 				D805696418C77CBB00219FA2 /* Images.xcassets */,
+				D82C9F1B18C9E56A00BA711B /* View */,
 				D805695318C77CBB00219FA2 /* Supporting Files */,
 			);
 			path = ColV;
@@ -126,6 +153,9 @@
 		D805695318C77CBB00219FA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D82C9F2A18CA0F9000BA711B /* Images */,
+				D805695E18C77CBB00219FA2 /* Main.storyboard */,
+				D805698418C77F3800219FA2 /* images.jpg */,
 				D805695418C77CBB00219FA2 /* ColV-Info.plist */,
 				D805695518C77CBB00219FA2 /* InfoPlist.strings */,
 				D805695818C77CBB00219FA2 /* main.m */,
@@ -150,6 +180,44 @@
 				D805697418C77CBB00219FA2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82C9F1B18C9E56A00BA711B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D826573118CF45210013FD17 /* CVRefreshReloadCollectionView.h */,
+				D826573218CF45210013FD17 /* CVRefreshReloadCollectionView.m */,
+				D805698118C77D7700219FA2 /* CVCollectionViewCell.h */,
+				D805698218C77D7700219FA2 /* CVCollectionViewCell.m */,
+				D808980418D07F8F005DA0D0 /* CVActivityView.h */,
+				D808980518D07F8F005DA0D0 /* CVActivityView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D82C9F1C18C9E5B900BA711B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D805696118C77CBB00219FA2 /* CVViewController.h */,
+				D805696218C77CBB00219FA2 /* CVViewController.m */,
+				D82C9F1818C9E52F00BA711B /* CVDataSource.h */,
+				D82C9F1918C9E52F00BA711B /* CVDataSource.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D82C9F2A18CA0F9000BA711B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D82656E218CF1CC50013FD17 /* flipped_arrow.png */,
+				D89D9FA818CF0E0A00136EB9 /* arrow.png */,
+				D82C9F2018CA0F8C00BA711B /* 1.jpg */,
+				D82C9F2118CA0F8C00BA711B /* 2.jpg */,
+				D82C9F2218CA0F8C00BA711B /* 3.jpg */,
+				D82C9F2318CA0F8C00BA711B /* 4.jpg */,
+				D82C9F2418CA0F8C00BA711B /* 5.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +297,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82C9F2818CA0F8C00BA711B /* 4.jpg in Resources */,
+				D82C9F2618CA0F8C00BA711B /* 2.jpg in Resources */,
 				D805696518C77CBB00219FA2 /* Images.xcassets in Resources */,
+				D89D9FA918CF0E0A00136EB9 /* arrow.png in Resources */,
+				D82656E318CF1CC50013FD17 /* flipped_arrow.png in Resources */,
+				D82C9F2918CA0F8C00BA711B /* 5.jpg in Resources */,
 				D805695718C77CBB00219FA2 /* InfoPlist.strings in Resources */,
 				D805696018C77CBB00219FA2 /* Main.storyboard in Resources */,
+				D805698518C77F3800219FA2 /* images.jpg in Resources */,
+				D82C9F2718CA0F8C00BA711B /* 3.jpg in Resources */,
+				D82C9F2518CA0F8C00BA711B /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D808980618D07F8F005DA0D0 /* CVActivityView.m in Sources */,
+				D82C9F1A18C9E52F00BA711B /* CVDataSource.m in Sources */,
 				D805695918C77CBB00219FA2 /* main.m in Sources */,
+				D805698318C77D7700219FA2 /* CVCollectionViewCell.m in Sources */,
 				D805695D18C77CBB00219FA2 /* CVAppDelegate.m in Sources */,
 				D805696318C77CBB00219FA2 /* CVViewController.m in Sources */,
+				D826573318CF45210013FD17 /* CVRefreshReloadCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +541,7 @@
 				D805697D18C77CBB00219FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D805697E18C77CBB00219FA2 /* Build configuration list for PBXNativeTarget "ColVTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +550,7 @@
 				D805698018C77CBB00219FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

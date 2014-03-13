@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class CVRefreshReloadCollectionView;
+
 @interface CVViewController : UIViewController
+@property (weak, nonatomic) IBOutlet CVRefreshReloadCollectionView *collectionView;
 
 @end
